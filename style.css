@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #3c3a39;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  height: auto;
+  width: 94px;
+  left: 12px;
+  top: 2px;
+  border-radius: 0;
+  padding: 10px 12px 10px 12px;
+}
+
+#logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.hamberger-btn {
+  text-align: center;
+  padding-top: 7.6%;
+  padding-left: 16%;
+  width: fit-content;
+  display: block;
+}
+
+.hamberger {
+  cursor: pointer;
+  margin-right: 14px;
+  margin-top: 7px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.banner-section {
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  background-image: url(img/illustration-header-mobile.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 38.9%;
+  background-position-y: 271px;
+  background-position-x: right;
+}
+
+#myName {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  text-align: left;
+  color: #ff6b00;
+}
+
+#title {
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+#description {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffff;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+}
+
+.iconsSection {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+}
