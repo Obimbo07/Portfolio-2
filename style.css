@@ -48,6 +48,12 @@ header {
   margin-top: 7px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
 .banner-section {
   background-color: #1c1a19;
   display: flex;
@@ -58,13 +64,13 @@ header {
   background-image: url(img/illustration-header-mobile.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 46.9%;
-  background-position-y: 180px;
-  background-position: right;
+  background-size: 33.9%;
+  background-position-y: 271px;
+  background-position-x: right;
 }
 
 #myName {
-  font-family: 'Crete Round', sans-serif;
+  font-family: 'Crete Round', 'sans-serif';
   font-size: 56px;
   font-weight: 400;
   line-height: 64px;
@@ -75,7 +81,7 @@ header {
 
 #title {
   height: 27px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'sans-serif';
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
@@ -83,7 +89,7 @@ header {
 }
 
 #description {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
