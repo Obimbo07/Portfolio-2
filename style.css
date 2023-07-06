@@ -279,6 +279,7 @@ header {
   letter-spacing: 0.37px;
   color: #ff6b00;
   text-align: left;
+  margin-bottom: 19px;
 }
 
 .about-text {
@@ -288,7 +289,7 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin-bottom: 13px;
+  margin-bottom: 25px;
 }
 
 .resume {
@@ -309,6 +310,7 @@ header {
   border: 1px solid #fff;
   width: 100%;
   margin-top: 50%;
+  margin-bottom: 46px;
 }
 
 .skills {
@@ -325,7 +327,7 @@ header {
   flex-direction: column;
   align-items: center;
   padding: 0;
-  gap: 24px;
+  gap: 20px;
 }
 
 .header-list {
@@ -372,6 +374,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 12px;
+  padding: 0 17px;
   gap: 8px;
 }
