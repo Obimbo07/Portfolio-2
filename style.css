@@ -377,6 +377,7 @@ header {
   padding: 0 17px;
   gap: 8px;
 }
+
 .feedback {
   padding: 50px 24px;
 }
@@ -443,6 +444,7 @@ form {
   align-items: baseline;
   gap: 20px;
 }
+
 .footer-break {
   background: #dfe1e6;
   width: 100%;
