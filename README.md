@@ -56,8 +56,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-
-
 - **[The project has a section for projects done]**
 - **[The project includes skillsets and links to resume file]**
 - **[The project has a form to collect messages and enquiries]**
@@ -68,7 +66,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://obimbo07.github.io/Portfolio-2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,7 +73,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -90,19 +86,16 @@ git installed
 
 Clone this repository to your desired folder:
 
-
 ```sh
   cd Portfolio-2
   git clone git@github.com:myaccount/Portfolio-2.git
 ```
-
 
 ### Install
 
 Install this project with:
 
 git
-
 
 ### Usage
 
@@ -115,7 +108,6 @@ launch index.html
 
 To run tests, run check the 
  npm test
-
 
 ### Deployment
 
@@ -136,14 +128,11 @@ github pages
 - GitHub: [@githubhandle](https://github.com/Obimbo07)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Austinobimbo)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
 
 - [ ] **[We will add a interactive online chat button]**
 - [ ] **[Update the projects section]**
@@ -174,11 +163,9 @@ If you like this project you can share a like.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
 I would like to thank microverse for the template. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
