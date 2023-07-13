@@ -30,7 +30,6 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-
 **[Portfolio]** is my personal website for showcasing my portfolio as a Software Developer.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -51,12 +50,9 @@
   </ul>
 </details>
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-
 
 - **[The project has a section for projects done]**
 - **[The project includes skillsets and links to resume file]**
@@ -68,7 +64,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://obimbo07.github.io/Portfolio-2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,7 +71,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -90,19 +84,16 @@ git installed
 
 Clone this repository to your desired folder:
 
-
 ```sh
   cd Portfolio-2
   git clone git@github.com:myaccount/Portfolio-2.git
 ```
-
 
 ### Install
 
 Install this project with:
 
 git
-
 
 ### Usage
 
@@ -129,21 +120,16 @@ github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
 👤 **Austin Obimbo**
 
 - GitHub: [@githubhandle](https://github.com/Obimbo07)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Austinobimbo)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
 
 - [ ] **[We will add a interactive online chat button]**
 - [ ] **[Update the projects section]**
