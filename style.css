@@ -377,3 +377,83 @@ header {
   padding: 0 17px;
   gap: 8px;
 }
+.feedback {
+  padding: 50px 24px;
+}
+
+.feedback-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  padding-bottom: 49px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #172b4d;
+}
+
+form {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom-color: #dbd8d7;
+  margin-top: 12px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+#message {
+  margin-top: 12px;
+  border: none;
+  width: 94%;
+  background: #fbf8f7;
+  font-style: italic;
+  color: #3c3a39;
+  padding: 10px;
+}
+
+.submit-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0;
+  padding: 12px;
+  margin-top: 24px;
+  margin-left: 98px;
+  margin-right: 98px;
+  gap: 10px;
+  background-color: #ff6b00;
+  color: #fff;
+  width: 107px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+  gap: 20px;
+}
+.footer-break {
+  background: #dfe1e6;
+  width: 100%;
+  margin: 24px 0;
+}
+
+.Footer-line {
+  border-radius: 10px;
+  margin: auto 31%;
+  background-color: #0d151e;
+  height: 5px;
+  width: 134px;
+  margin-top: 32px;
+}
