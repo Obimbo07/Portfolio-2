@@ -466,7 +466,7 @@ form {
   }
 
   nav {
-    margin-right: -59%;
+    margin-right: -55%;
   }
 
   .nav-links {
@@ -514,6 +514,7 @@ form {
 
   #works-title {
     margin-left: 4%;
+    width: 26%;
   }
 
   .works-break {
@@ -524,8 +525,8 @@ form {
   .recent-project {
     display: flex;
     flex-direction: row;
-    margin-left: 11%;
     margin-right: 11%;
+    margin-bottom: 2%;
   }
 
   .right-block {
@@ -550,8 +551,30 @@ form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 70px;
+    gap: 30px;
     border: 0 solid #ccc;
+  }
+
+  .card-btn {
+    display: none;
+    transition: background-color 0.5s ease;
+  }
+
+  .card-btn:hover {
+    background-color: rgb(221, 137, 10);
+  }
+
+  .cards-works:hover .card-btn {
+    display: block;
+  }
+
+  .card-works:hover h2,
+  .card-works:hover p {
+    color: transparent;
+  }
+
+  .card-works:hover ul {
+    display: none !important;
   }
 
   .about {
@@ -573,7 +596,9 @@ form {
   }
 
   .about-breaker {
-    margin-top: 19%;
+    margin-top: -1%;
+    width: 82%;
+    margin-left: 4%;
   }
 
   .skills {
@@ -583,7 +608,12 @@ form {
   .tools-list {
     margin-right: 40%;
     display: flex;
-    gap: 45%;
+    gap: 25%;
+  }
+
+  .mini-list {
+    width: max-content;
+    align-items: baseline;
   }
 
   .feedback {
