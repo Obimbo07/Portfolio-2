@@ -459,3 +459,48 @@ form {
   width: 134px;
   margin-top: 32px;
 }
+@media (min-width: 768px){
+  .hamberger-btn{
+    display: none;
+  }
+  nav {
+    margin-right: -59%;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    gap: 24%;
+    color: #fff;
+  }
+  .banner-section {
+    background-image: url(img/Illustration-header@2x.png);
+    background-position-y: 30%;
+    background-size: 30%;
+  }
+  .container {
+    width: 327px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 12%;
+  }
+  .socials {
+    position: absolute;
+    left: 7%;
+  }
+  .iconsSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .recent-works{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
