@@ -459,13 +459,16 @@ form {
   width: 134px;
   margin-top: 32px;
 }
-@media (min-width: 768px){
-  .hamberger-btn{
+
+@media (min-width: 768px) {
+  .hamberger-btn {
     display: none;
   }
+
   nav {
     margin-right: -59%;
   }
+
   .nav-links {
     display: flex;
     flex-direction: row;
@@ -474,11 +477,13 @@ form {
     gap: 24%;
     color: #fff;
   }
+
   .banner-section {
     background-image: url(img/Illustration-header@2x.png);
     background-position-y: 30%;
     background-size: 30%;
   }
+
   .container {
     width: 327px;
     gap: 12px;
@@ -487,20 +492,114 @@ form {
     justify-content: space-around;
     margin-left: 12%;
   }
+
   .socials {
     position: absolute;
     left: 7%;
   }
+
   .iconsSection {
     display: flex;
     flex-direction: column;
   }
-  .recent-works{
+
+  .recent-works {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
     align-items: center;
+  }
+
+  #works-title {
+    margin-left: 4%;
+  }
+
+  .works-break {
+    width: 68%;
+    margin-right: 3%;
+  }
+
+  .recent-project {
+    display: flex;
+    flex-direction: row;
+    margin-left: 11%;
+    margin-right: 11%;
+  }
+
+  .right-block {
+    width: min-content;
+    gap: 27px;
+  }
+
+  .project-img {
+    width: 68%;
+  }
+
+  .posts-description {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091e42;
+  }
+
+  .cards-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 70px;
+    border: 0 solid #ccc;
+  }
+
+  .about {
+    border-radius: 0;
+    padding: 130px 0 130px 0;
+    background-image: url(img/Frame1.png);
+    background-position-y: 14%;
+    background-size: 48%;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 130px 0;
+    gap: 24px;
+    width: 44%;
+    margin-left: 7%;
+  }
+
+  .about-breaker {
+    margin-top: 19%;
+  }
+
+  .skills {
+    display: flex;
+  }
+
+  .tools-list {
+    margin-right: 40%;
+    display: flex;
+    gap: 45%;
+  }
+
+  .feedback {
+    display: flex;
+    gap: 3%;
+  }
+
+  .feedback-text {
+    text-align: left;
+  }
+
+  .submit-btn {
+    margin: 0;
+  }
+
+  .Footer-line {
+    display: none;
   }
 }
