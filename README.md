@@ -30,7 +30,6 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-
 **[Portfolio]** is my personal website for showcasing my portfolio as a Software Developer.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -50,7 +49,6 @@
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
 </details>
-
 
 <!-- Features -->
 
@@ -120,8 +118,6 @@ github pages
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-
 
 👤 **Austin Obimbo**
 
