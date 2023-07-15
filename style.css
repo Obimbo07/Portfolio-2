@@ -566,7 +566,7 @@ form {
 
   #works-title {
     margin-left: 9%;
-    width: 110%;
+    width: 106%;
   }
 
   .works-break {
@@ -665,7 +665,8 @@ form {
     font-weight: 700;
     line-height: 52px;
     letter-spacing: 0;
-    width: 455px;
+    width: 700px;
+    margin-left: 8%;
   }
 
   .submit-btn {
