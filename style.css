@@ -51,6 +51,10 @@ header {
   display: block;
 }
 
+.hidden {
+  display: none;
+}
+
 .hamberger {
   cursor: pointer;
   margin-right: 14px;
@@ -260,7 +264,6 @@ header {
   height: 48px;
   background: #ff6b00;
   transition: background-color 0.5s ease;
-  display: none;
   color: #fff;
 }
 
@@ -535,12 +538,12 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 12%;
+    margin-left: 7%;
   }
 
   .socials {
     position: absolute;
-    left: 7%;
+    left: 3%;
   }
 
   .iconsSection {
@@ -572,9 +575,9 @@ form {
   }
 
   .recent-project {
+    padding: 0;
     display: flex;
     flex-direction: row;
-    margin-bottom: 11%;
   }
 
   .right-block {
@@ -596,13 +599,13 @@ form {
   }
 
   #grid-container {
-    margin: 10% -2% 0% 0%;
+    margin: 10% 9% 5% 9%;
   }
 
   .cards-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
-    padding: 0 47px 72px 45px;
+    padding: 4% 0;
     gap: 5px;
     border: 0 solid #ccc;
   }
@@ -615,7 +618,7 @@ form {
     border-radius: 0;
     padding: 130px 0 130px 0;
     background-image: url(img/Frame1.png);
-    background-position-y: 37%;
+    background-position-y: 30%;
     background-size: 53%;
   }
 
@@ -626,7 +629,7 @@ form {
     padding: 130px 0;
     gap: 24px;
     width: 44%;
-    margin-left: 7%;
+    margin-left: 9%;
   }
 
   .about-breaker {
@@ -640,9 +643,9 @@ form {
   }
 
   .tools-list {
-    margin-right: 2%;
+    margin-right: 19%;
     display: flex;
-    gap: 6%;
+    gap: 15%;
   }
 
   .mini-list {
