@@ -20,6 +20,10 @@ header {
   justify-content: space-between;
 }
 
+.nav-links {
+  display: none;
+}
+
 .logo-container {
   height: auto;
   width: 94px;
@@ -205,7 +209,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 24px 62px;
   gap: 24px;
 }
 
@@ -255,6 +259,8 @@ header {
   border: 0;
   height: 48px;
   background: #ff6b00;
+  transition: background-color 0.5s ease;
+  display: none;
   color: #fff;
 }
 
@@ -271,12 +277,15 @@ header {
   gap: 24px;
 }
 
+.about-me {
+  width: 327px;
+}
+
 .about-title {
   font-family: 'Crete Round', sans-serif;
   font-size: 72px;
   font-weight: 400;
   line-height: 88px;
-  letter-spacing: 0.37px;
   color: #ff6b00;
   text-align: left;
   margin-bottom: 19px;
@@ -311,6 +320,27 @@ header {
   width: 100%;
   margin-top: 50%;
   margin-bottom: 46px;
+}
+
+.card-btn:hover {
+  background-color: rgb(221, 137, 10);
+}
+
+.cards-works:hover {
+  display: block;
+}
+
+.card-works:hover h2,
+.card-works:hover p {
+  color: transparent;
+}
+
+.card-works:hover button {
+  display: block;
+}
+
+.card-works:hover ul {
+  display: none !important;
 }
 
 .skills {
@@ -461,12 +491,26 @@ form {
 }
 
 @media (min-width: 768px) {
-  .hamberger-btn {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  * {
+    max-width: 100%;
+  }
+
+  .hamberger {
     display: none;
   }
 
+  .Union {
+    height: 50%;
+    margin-top: 5%;
+  }
+
   nav {
-    margin-right: -55%;
+    margin-right: 22%;
   }
 
   .nav-links {
@@ -480,8 +524,9 @@ form {
 
   .banner-section {
     background-image: url(img/Illustration-header@2x.png);
-    background-position-y: 30%;
-    background-size: 30%;
+    background-position-y: 95%;
+    background-position-x: 100%;
+    background-size: 53%;
   }
 
   .container {
@@ -512,21 +557,24 @@ form {
     align-items: center;
   }
 
+  .works {
+    padding: 39px 0;
+  }
+
   #works-title {
-    margin-left: 4%;
-    width: 26%;
+    margin-left: 9%;
+    width: 110%;
   }
 
   .works-break {
-    width: 68%;
-    margin-right: 3%;
+    width: 110%;
+    margin-right: 6%;
   }
 
   .recent-project {
     display: flex;
     flex-direction: row;
-    margin-right: 11%;
-    margin-bottom: 2%;
+    margin-bottom: 11%;
   }
 
   .right-block {
@@ -547,42 +595,28 @@ form {
     color: #091e42;
   }
 
+  #grid-container {
+    margin: 10% -2% 0% 0%;
+  }
+
   .cards-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+    padding: 0 47px 72px 45px;
+    gap: 5px;
     border: 0 solid #ccc;
   }
 
-  .card-btn {
-    display: none;
-    transition: background-color 0.5s ease;
-  }
-
-  .card-btn:hover {
-    background-color: rgb(221, 137, 10);
-  }
-
-  .cards-works:hover .card-btn {
-    display: block;
-  }
-
-  .card-works:hover h2,
-  .card-works:hover p {
-    color: transparent;
-  }
-
-  .card-works:hover ul {
-    display: none !important;
+  .tech-skills {
+    gap: 8px;
   }
 
   .about {
     border-radius: 0;
     padding: 130px 0 130px 0;
     background-image: url(img/Frame1.png);
-    background-position-y: 14%;
-    background-size: 48%;
+    background-position-y: 37%;
+    background-size: 53%;
   }
 
   .about-me {
@@ -606,9 +640,9 @@ form {
   }
 
   .tools-list {
-    margin-right: 40%;
+    margin-right: 2%;
     display: flex;
-    gap: 25%;
+    gap: 6%;
   }
 
   .mini-list {
@@ -623,6 +657,12 @@ form {
 
   .feedback-text {
     text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    width: 455px;
   }
 
   .submit-btn {
