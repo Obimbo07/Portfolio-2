@@ -20,6 +20,10 @@ header {
   justify-content: space-between;
 }
 
+.nav-links {
+  display: none;
+}
+
 .logo-container {
   height: auto;
   width: 94px;
@@ -45,6 +49,10 @@ header {
   padding-left: 16%;
   width: fit-content;
   display: block;
+}
+
+.hidden {
+  display: none;
 }
 
 .hamberger {
@@ -205,7 +213,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 24px 62px;
   gap: 24px;
 }
 
@@ -255,6 +263,7 @@ header {
   border: 0;
   height: 48px;
   background: #ff6b00;
+  transition: background-color 0.5s ease;
   color: #fff;
 }
 
@@ -271,12 +280,15 @@ header {
   gap: 24px;
 }
 
+.about-me {
+  width: 327px;
+}
+
 .about-title {
   font-family: 'Crete Round', sans-serif;
   font-size: 72px;
   font-weight: 400;
   line-height: 88px;
-  letter-spacing: 0.37px;
   color: #ff6b00;
   text-align: left;
   margin-bottom: 19px;
@@ -311,6 +323,27 @@ header {
   width: 100%;
   margin-top: 50%;
   margin-bottom: 46px;
+}
+
+.card-btn:hover {
+  background-color: rgb(221, 137, 10);
+}
+
+.cards-works:hover {
+  display: block;
+}
+
+.card-works:hover h2,
+.card-works:hover p {
+  color: transparent;
+}
+
+.card-works:hover button {
+  display: block;
+}
+
+.card-works:hover ul {
+  display: none !important;
 }
 
 .skills {
@@ -458,4 +491,189 @@ form {
   height: 5px;
   width: 134px;
   margin-top: 32px;
+}
+
+@media (min-width: 768px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  * {
+    max-width: 100%;
+  }
+
+  .hamberger {
+    display: none;
+  }
+
+  .Union {
+    height: 50%;
+    margin-top: 5%;
+  }
+
+  nav {
+    margin-right: 22%;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    gap: 24%;
+    color: #fff;
+  }
+
+  .banner-section {
+    background-image: url(img/Illustration-header@2x.png);
+    background-position-y: 95%;
+    background-position-x: 100%;
+    background-size: 53%;
+  }
+
+  .container {
+    width: 327px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 7%;
+  }
+
+  .socials {
+    position: absolute;
+    left: 3%;
+  }
+
+  .iconsSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recent-works {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .works {
+    padding: 39px 0;
+  }
+
+  #works-title {
+    margin-left: 9%;
+    width: 106%;
+  }
+
+  .works-break {
+    width: 110%;
+    margin-right: 6%;
+  }
+
+  .recent-project {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right-block {
+    width: min-content;
+    gap: 27px;
+  }
+
+  .project-img {
+    width: 68%;
+  }
+
+  .posts-description {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091e42;
+  }
+
+  #grid-container {
+    margin: 10% 9% 5% 9%;
+  }
+
+  .cards-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+    padding: 4% 0;
+    gap: 5px;
+    border: 0 solid #ccc;
+  }
+
+  .tech-skills {
+    gap: 8px;
+  }
+
+  .about {
+    border-radius: 0;
+    padding: 130px 0 130px 0;
+    background-image: url(img/Frame1.png);
+    background-position-y: 30%;
+    background-size: 53%;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 130px 0;
+    gap: 24px;
+    width: 44%;
+    margin-left: 9%;
+  }
+
+  .about-breaker {
+    margin-top: -1%;
+    width: 82%;
+    margin-left: 4%;
+  }
+
+  .skills {
+    display: flex;
+  }
+
+  .tools-list {
+    margin-right: 19%;
+    display: flex;
+    gap: 15%;
+  }
+
+  .mini-list {
+    width: max-content;
+    align-items: baseline;
+  }
+
+  .feedback {
+    display: flex;
+    gap: 3%;
+  }
+
+  .feedback-text {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    width: 700px;
+    margin-left: 8%;
+  }
+
+  .submit-btn {
+    margin: 0;
+  }
+
+  .Footer-line {
+    display: none;
+  }
 }
