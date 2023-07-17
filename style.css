@@ -41,6 +41,17 @@ header {
   letter-spacing: 0;
   text-align: center;
   color: #fff;
+  animation: rotate 1s ease-in-out forwards;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .hamberger-btn {
@@ -273,11 +284,22 @@ header {
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 24%;
+  animation: backgroundScroll 20s linear infinite;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
   gap: 24px;
+}
+
+@keyframes backgroundScroll {
+  0% {
+    background-position: 0% 10%;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
 }
 
 .about-me {
@@ -667,6 +689,10 @@ form {
     letter-spacing: 0;
     width: 700px;
     margin-left: 8%;
+  }
+
+  .feedback-text:hover {
+    transform: translate(10px);
   }
 
   .submit-btn {
