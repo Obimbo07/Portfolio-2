@@ -41,7 +41,7 @@ header {
   letter-spacing: 0;
   text-align: center;
   color: #fff;
-  animation: rotate 1s ease-in-out forwards
+  animation: rotate 1s ease-in-out forwards;
 }
 
 @keyframes rotate {
@@ -296,6 +296,7 @@ header {
   0% {
     background-position: 0% 10%;
   }
+
   100% {
     background-position: 100% 100%;
   }
@@ -691,7 +692,7 @@ form {
   }
 
   .feedback-text:hover {
-   transform: translate(10px);
+    transform: translate(10px);
   }
 
   .submit-btn {
