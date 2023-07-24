@@ -12,6 +12,7 @@ li {
   list-style: none;
 }
 
+
 header {
   background-color: #3c3a39;
   width: 100%;
@@ -31,6 +32,38 @@ header {
   top: 2px;
   border-radius: 0;
   padding: 10px 12px 10px 12px;
+}
+/* ---Mobile menu dropdown--*/
+.drop-down {
+  background-color: #3c3a39;
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+}
+.dropDown-menu {
+ padding: 10px;
+}
+
+#menu-close {
+  text-align: end;
+  color: #fff;
+
+}
+a {
+  text-decoration: none;
+}
+
+.mobile-links {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: #fff;
 }
 
 #logo {
