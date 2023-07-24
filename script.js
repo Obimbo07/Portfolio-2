@@ -5,7 +5,7 @@ function openMenu() {
 }
 openMenu();
 
-function closeMenu(){
+function closeMenu() {
   popup.classList.remove('dropdown_show');
 }
 closeMenu();
