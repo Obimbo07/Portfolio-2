@@ -1,6 +1,5 @@
 const popup = document.getElementById('mobile-menu');
 
-
 function openMenu() {
   popup.classList.add('dropdown_show');
 }
