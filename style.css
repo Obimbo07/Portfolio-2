@@ -53,6 +53,9 @@ a {
   text-decoration: none;
 }
 
+.drop-down {
+  display: none;
+}
 .mobile-links {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
