@@ -324,22 +324,11 @@ a {
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 24%;
-  animation: backgroundScroll 20s linear infinite;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
   gap: 24px;
-}
-
-@keyframes backgroundScroll {
-  0% {
-    background-position: 0% 10%;
-  }
-
-  100% {
-    background-position: 100% 100%;
-  }
 }
 
 .about-me {
