@@ -543,6 +543,7 @@ form {
   width: 134px;
   margin-top: 32px;
 }
+
 /* Modal Content  */
 #modalOverlay {
   display: none;
@@ -824,6 +825,7 @@ form {
   .Footer-line {
     display: none;
   }
+
   #modalImage {
     width: 50%;
     height: 300px;
