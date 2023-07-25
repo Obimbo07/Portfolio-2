@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,18 +10,25 @@
     <body>
         <header>
             <div class="logo-container">
-                <a href="#"><h3 id="logo">My Logo</h3></a>
+                <a href="#"><h3 id="logo">Austine</h3></a>
+            </div>
+            <div class="drop-down" id="mobile-menu">
+              <ul class="dropDown-menu">
+                <h1 aria-hidden="true" id="menu-close" onclick="closeMenu()">&times</h1>
+                <a href="#Home"><li class="mobile-links" onclick="closeMenu()" >Portfolio</li></a>
+                <a href="#About"><li class="mobile-links" onclick="closeMenu()" >About</li></a>
+                <a href="#Contact"><li class="mobile-links" onclick="closeMenu()" >Contact</li></a>
+              </ul>
             </div>
             <nav>
-              
-                <img class="hamberger" id="ham" src="img/IconMenu.png">
-  
+                <img class="hamberger" id="ham" src="img/IconMenu.png" onclick="openMenu()">
                 <ul class="nav-links">
-                  <li><a href="#"></a>Portfolio</li>
-                  <li><a href="#"></a>About</li>
-                  <li><a href="#"></a>Contact</li>
+                  <li><a href="#Home"></a>Portfolio</li>
+                  <li><a href="#About"></a>About</li>
+                  <li><a href="#Contact"></a>Contact</li>
                   <img class="Union" src="img/Union.png">
                 </ul>
+
             </nav>
         </header>
         <div id="body-container">
@@ -143,7 +149,7 @@
                 </div>
             </div>
         </div>
-          <section class="about">
+          <section class="about" id="About">
             <div class="about-me">
               <h2 class="about-title">About me</h2>
               <p class="about-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
@@ -192,7 +198,7 @@
                  </ul>
              </div>
           </section>
-          <footer class="footer-items">
+          <footer class="footer-items" id="Contact">
              <div class="feedback">
               <h2 class="feedback-text">
                   I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -227,4 +233,5 @@
           </footer>
         </div>
     </body>
+    <script src="script.js"></script>
 </html>

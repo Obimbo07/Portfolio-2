@@ -33,6 +33,46 @@ header {
   padding: 10px 12px 10px 12px;
 }
 
+/* ---Mobile menu dropdown-- */
+.drop-down {
+  background-color: #3c3a39;
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  display: none;
+}
+
+.dropDown-menu {
+  padding: 10px;
+}
+
+#menu-close {
+  text-align: end;
+  color: rgba(151, 148, 147, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.dropdown_show {
+  display: block;
+}
+
+.mobile-links {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: #fff5e1;
+  padding: 10px;
+}
+
 #logo {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -284,22 +324,11 @@ header {
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 24%;
-  animation: backgroundScroll 20s linear infinite;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
   gap: 24px;
-}
-
-@keyframes backgroundScroll {
-  0% {
-    background-position: 0% 10%;
-  }
-
-  100% {
-    background-position: 100% 100%;
-  }
 }
 
 .about-me {
