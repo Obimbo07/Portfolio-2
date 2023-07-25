@@ -124,6 +124,12 @@ github pages
 - GitHub: [@githubhandle](https://github.com/Obimbo07)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Austinobimbo)
 
+👤 **Anold Mwagharo**
+
+- GitHub: [@MPDADDY](https://github.com/MPDADDY)
+- Twitter: [@anoldmwawasi](https://twitter.com/anold_mwawasi)
+- LinkedIn: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
