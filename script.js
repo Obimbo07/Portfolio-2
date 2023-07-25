@@ -12,11 +12,10 @@ closeMenu();
 
 const projectsSection = document.getElementById('projectsSection');
 const modalOverlay = document.getElementById('modalOverlay');
-const moodalContent = document.getElementById('modalContent');
 const modalTitle = document.getElementById('modalTitle');
 const modalTechnologies = document.getElementById('modalTechnologies');
-const modalImage =document.getElementById('modalImage');
-const modalDescription  = document.getElementById('modalDescription');
+const modalImage = document.getElementById('modalImage');
+const modalDescription = document.getElementById('modalDescription');
 const modalLiveLink = document.getElementById('modalLiveLink');
 const modalSourceLink = document.getElementById('modalSourceLink');
 const closeModalBtn = document.getElementById('closeModalBtn');
@@ -78,8 +77,31 @@ const projects = [
   },
   // Add more project objects as needed
 ];
+function openModal(project) {
+  modalTitle.textContent = project.name;
+  modalImage.src = project.image;
+  modalDescription.textContent = project.description;
+  // Create a <ul> element to hold the technologies
+  const technologiesList = document.createElement('ul');
+  technologiesList.classList.add('technologies-list');
 
-function createProjectCard(project, index){
+  // Loop through each technology and create a <li> element
+  project.technologies.forEach((technology) => {
+    const technologyItem = document.createElement('li');
+    technologyItem.textContent = technology;
+    technologiesList.appendChild(technologyItem);
+  });
+
+  // Clear the existing content of modalTechnologies before appending the list
+  modalTechnologies.innerHTML = '';
+  modalTechnologies.appendChild(technologiesList);
+  modalLiveLink.href = project.liveLink;
+  modalSourceLink.href = project.sourceLink;
+
+  modalOverlay.style.display = 'block';
+}
+
+function createProjectCard(project, index) {
   const card = document.createElement('Div');
   card.classList.add('project-card');
 
@@ -105,29 +127,6 @@ function createProjectCard(project, index){
   });
 }
 
-function openModal(project) {
-  modalTitle.textContent = project.name;
-  modalImage.src = project.image;
-  modalDescription.textContent = project.description;
-  // Create a <ul> element to hold the technologies
-  const technologiesList = document.createElement('ul');
-  technologiesList.classList.add('technologies-list');
-
-  // Loop through each technology and create a <li> element
-  project.technologies.forEach((technology) => {
-    const technologyItem = document.createElement('li');
-    technologyItem.textContent = technology;
-    technologiesList.appendChild(technologyItem);
-  });
-
-  // Clear the existing content of modalTechnologies before appending the list
-  modalTechnologies.innerHTML = '';
-  modalTechnologies.appendChild(technologiesList);
-  modalLiveLink.href = project.liveLink;
-  modalSourceLink.href = project.sourceLink;
-
-  modalOverlay.style.display = 'block';
-}
 const recentProject = document.querySelector('.project-view');
 recentProject.addEventListener('click', () => {
   openModal(projects[0]);
