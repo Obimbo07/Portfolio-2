@@ -61,7 +61,7 @@ const projects = [
     index: 4,
     name: 'Multi Post Stories',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    technoloBootstraps: ['HTML', 'Bootstrap', 'Ruby on rails'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
     image: 'img/projects.png',
     liveLink: 'https://example.com/project1',
     sourceLink: 'https://github.com/user/project1',
