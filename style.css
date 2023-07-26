@@ -637,6 +637,10 @@ form {
   gap: 10px;
 }
 
+.err-msg {
+  color:crimson;
+}
+
 @media (min-width: 768px) {
   body,
   html {
