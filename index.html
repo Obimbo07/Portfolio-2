@@ -86,6 +86,7 @@
                 </div>
                    <!---- flexbox individual cards -->
                <section id="projectsSection" class="grid-container cards-box">
+                <!----Projects are displayed dynamically-->
 
                </section>
                <div id="modalOverlay">
@@ -155,11 +156,12 @@
               <h2 class="feedback-text">
                   I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
               </h2>                    
-              <form action="https://formspree.io/f/xrgwgday" method="POST">
+              <form  class="contact-form" action="https://formspree.io/f/xrgwgday" method="POST">
                   <input class="form-input" type="text" id="fullname" name="fullname" placeholder="Full name" maxlength="30" required>
                   <input class="form-input" type="email" id="email" name="email" placeholder="Email address" required>
                   <textarea id="message" name="message" rows="5" placeholder="Write me something..." maxlength="500" required></textarea>                        
                   <input class="submit-btn"  type="submit" value="Get in touch">
+                  <span class="err-msg"></span>
               </form>
             </div>
             <hr class="footer-break">
