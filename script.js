@@ -173,3 +173,12 @@ form.addEventListener('click', () => {
  };
  localStorage.setItem('contactData', JSON.stringify(contactData));
 })
+
+window.addEventListener('load', () => {
+  const data = JSON.parse(localStorage.getItem('contactData'));
+  if(data) {
+    fullName.value = data.fullName;
+    email.value = data.email;
+    message.value = data.message;
+  }
+});
