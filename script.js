@@ -159,24 +159,24 @@ form.addEventListener('submit', (e) => {
   } else {
     errMsg.classList.add('errMsgRmv');
   }
-}); 
+});
 
 /* ------- local data storage ---*/
 
 const fullname = document.getElementById('fullname');
 const message = document.getElementById('message');
 form.addEventListener('click', () => {
- const contactData = {
-  fullname: fullname.value,
-  email: email.value,
-  message: message.value,
- };
- localStorage.setItem('contactData', JSON.stringify(contactData));
-})
+  const contactData = {
+    fullname: fullname.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('contactData', JSON.stringify(contactData));
+});
 
 window.addEventListener('load', () => {
   const data = JSON.parse(localStorage.getItem('contactData'));
-  if(data) {
+  if (data) {
     fullname.value = data.fullname;
     email.value = data.email;
     message.value = data.message;
