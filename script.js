@@ -177,7 +177,7 @@ form.addEventListener('click', () => {
 window.addEventListener('load', () => {
   const data = JSON.parse(localStorage.getItem('contactData'));
   if(data) {
-    fullName.value = data.fullName;
+    fullname.value = data.fullname;
     email.value = data.email;
     message.value = data.message;
   }
