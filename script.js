@@ -152,7 +152,7 @@ const errMsg = document.querySelector('.err-msg');
 const msgText = 'Please write your email in lowercase';
 
 form.addEventListener('submit', (e) => {
-  if (email.value !== email.value.toLowerCase()){
+  if (email.value !== email.value.toLowerCase()) {
     errMsg.textContent = msgText;
     errMsg.classList.add('errMsgAdd');
     e.preventDefault();

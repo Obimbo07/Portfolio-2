@@ -638,7 +638,7 @@ form {
 }
 
 .err-msg {
-  color:crimson;
+  color: crimson;
 }
 
 @media (min-width: 768px) {
