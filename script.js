@@ -159,4 +159,17 @@ form.addEventListener('submit', (e) => {
   } else {
     errMsg.classList.add('errMsgRmv');
   }
-});
+}); 
+
+/* ------- local data storage ---*/
+
+const fullname = document.getElementById('fullname');
+const message = document.getElementById('message');
+form.addEventListener('click', () => {
+ const contactData = {
+  fullname: fullname.value,
+  email: email.value,
+  message: message.value,
+ };
+ localStorage.setItem('contactData', JSON.stringify(contactData));
+})
